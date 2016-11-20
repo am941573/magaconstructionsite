@@ -1,0 +1,28 @@
+# Site settings
+title: Magallanes Construction
+header-img: img/magallanes_construction_logo.jpg
+email: javier@magaconstruction.com
+copyright_name: Procrastes Press
+description: "Framing & Concrete"
+baseurl: ""
+url: "https://am941573.github.io/website2/"
+twitter_username: 
+github_username:  
+facebook_username: 
+email_username:  javier@magaconstruction.com
+linkedin_username: 
+phone_number: "1-806-676-1510"
+map_address: ""
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+#google_tracking_id: UA-1601268-12
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
